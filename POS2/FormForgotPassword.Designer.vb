@@ -52,9 +52,10 @@ Partial Class FormForgotPassword
         Me.Label7.AutoSize = True
         Me.Label7.Font = New System.Drawing.Font("Nirmala UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(9, Byte), Integer))
-        Me.Label7.Location = New System.Drawing.Point(28, 124)
+        Me.Label7.Location = New System.Drawing.Point(21, 101)
+        Me.Label7.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(69, 23)
+        Me.Label7.Size = New System.Drawing.Size(58, 19)
         Me.Label7.TabIndex = 72
         Me.Label7.Text = "Answer"
         '
@@ -63,10 +64,10 @@ Partial Class FormForgotPassword
         Me.TxtAnswer.BackColor = System.Drawing.Color.White
         Me.TxtAnswer.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtAnswer.ForeColor = System.Drawing.Color.Black
-        Me.TxtAnswer.Location = New System.Drawing.Point(207, 124)
-        Me.TxtAnswer.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TxtAnswer.Location = New System.Drawing.Point(155, 101)
+        Me.TxtAnswer.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtAnswer.Name = "TxtAnswer"
-        Me.TxtAnswer.Size = New System.Drawing.Size(228, 29)
+        Me.TxtAnswer.Size = New System.Drawing.Size(172, 25)
         Me.TxtAnswer.TabIndex = 71
         '
         'Label1
@@ -74,9 +75,10 @@ Partial Class FormForgotPassword
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Nirmala UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(9, Byte), Integer))
-        Me.Label1.Location = New System.Drawing.Point(27, 84)
+        Me.Label1.Location = New System.Drawing.Point(20, 68)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(81, 23)
+        Me.Label1.Size = New System.Drawing.Size(68, 19)
         Me.Label1.TabIndex = 70
         Me.Label1.Text = "Question"
         '
@@ -88,10 +90,10 @@ Partial Class FormForgotPassword
         Me.BtnClearAllFields.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnClearAllFields.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnClearAllFields.ForeColor = System.Drawing.Color.Maroon
-        Me.BtnClearAllFields.Location = New System.Drawing.Point(189, 107)
-        Me.BtnClearAllFields.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnClearAllFields.Location = New System.Drawing.Point(142, 87)
+        Me.BtnClearAllFields.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnClearAllFields.Name = "BtnClearAllFields"
-        Me.BtnClearAllFields.Size = New System.Drawing.Size(228, 44)
+        Me.BtnClearAllFields.Size = New System.Drawing.Size(171, 36)
         Me.BtnClearAllFields.TabIndex = 66
         Me.BtnClearAllFields.Text = "Clear All Fields"
         Me.BtnClearAllFields.UseVisualStyleBackColor = False
@@ -101,10 +103,10 @@ Partial Class FormForgotPassword
         Me.tbSignupUsername.BackColor = System.Drawing.Color.White
         Me.tbSignupUsername.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tbSignupUsername.ForeColor = System.Drawing.Color.Black
-        Me.tbSignupUsername.Location = New System.Drawing.Point(206, 43)
-        Me.tbSignupUsername.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.tbSignupUsername.Location = New System.Drawing.Point(154, 35)
+        Me.tbSignupUsername.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.tbSignupUsername.Name = "tbSignupUsername"
-        Me.tbSignupUsername.Size = New System.Drawing.Size(228, 29)
+        Me.tbSignupUsername.Size = New System.Drawing.Size(172, 25)
         Me.tbSignupUsername.TabIndex = 60
         '
         'Label2
@@ -112,9 +114,10 @@ Partial Class FormForgotPassword
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Nirmala UI", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(9, Byte), Integer))
-        Me.Label2.Location = New System.Drawing.Point(28, 45)
+        Me.Label2.Location = New System.Drawing.Point(21, 37)
+        Me.Label2.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(89, 23)
+        Me.Label2.Size = New System.Drawing.Size(76, 19)
         Me.Label2.TabIndex = 57
         Me.Label2.Text = "Username"
         '
@@ -125,10 +128,9 @@ Partial Class FormForgotPassword
         Me.BtnClose.FlatAppearance.BorderSize = 0
         Me.BtnClose.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnClose.Image = Global.POS2.My.Resources.Resources.ic_exit
-        Me.BtnClose.Location = New System.Drawing.Point(522, 0)
-        Me.BtnClose.Margin = New System.Windows.Forms.Padding(4)
+        Me.BtnClose.Location = New System.Drawing.Point(392, 0)
         Me.BtnClose.Name = "BtnClose"
-        Me.BtnClose.Size = New System.Drawing.Size(56, 52)
+        Me.BtnClose.Size = New System.Drawing.Size(42, 42)
         Me.BtnClose.TabIndex = 63
         Me.BtnClose.UseVisualStyleBackColor = False
         '
@@ -140,10 +142,10 @@ Partial Class FormForgotPassword
         Me.BtnCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCheck.Font = New System.Drawing.Font("Nirmala UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BtnCheck.ForeColor = System.Drawing.Color.White
-        Me.BtnCheck.Location = New System.Drawing.Point(207, 166)
-        Me.BtnCheck.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.BtnCheck.Location = New System.Drawing.Point(155, 135)
+        Me.BtnCheck.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.BtnCheck.Name = "BtnCheck"
-        Me.BtnCheck.Size = New System.Drawing.Size(228, 44)
+        Me.BtnCheck.Size = New System.Drawing.Size(171, 36)
         Me.BtnCheck.TabIndex = 73
         Me.BtnCheck.Text = "Proceed"
         Me.BtnCheck.UseVisualStyleBackColor = False
@@ -153,9 +155,10 @@ Partial Class FormForgotPassword
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(9, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(7, 34)
+        Me.Label3.Location = New System.Drawing.Point(5, 28)
+        Me.Label3.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(125, 23)
+        Me.Label3.Size = New System.Drawing.Size(97, 17)
         Me.Label3.TabIndex = 76
         Me.Label3.Text = "New Password"
         '
@@ -164,10 +167,10 @@ Partial Class FormForgotPassword
         Me.TxtNPassword.BackColor = System.Drawing.Color.White
         Me.TxtNPassword.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtNPassword.ForeColor = System.Drawing.Color.Black
-        Me.TxtNPassword.Location = New System.Drawing.Point(189, 34)
-        Me.TxtNPassword.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TxtNPassword.Location = New System.Drawing.Point(142, 28)
+        Me.TxtNPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtNPassword.Name = "TxtNPassword"
-        Me.TxtNPassword.Size = New System.Drawing.Size(228, 29)
+        Me.TxtNPassword.Size = New System.Drawing.Size(172, 25)
         Me.TxtNPassword.TabIndex = 75
         '
         'Label4
@@ -175,9 +178,10 @@ Partial Class FormForgotPassword
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.FromArgb(CType(CType(68, Byte), Integer), CType(CType(45, Byte), Integer), CType(CType(9, Byte), Integer))
-        Me.Label4.Location = New System.Drawing.Point(4, 80)
+        Me.Label4.Location = New System.Drawing.Point(3, 65)
+        Me.Label4.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(155, 23)
+        Me.Label4.Size = New System.Drawing.Size(120, 17)
         Me.Label4.TabIndex = 78
         Me.Label4.Text = "Confirm Password"
         '
@@ -186,10 +190,10 @@ Partial Class FormForgotPassword
         Me.TxtCPassword.BackColor = System.Drawing.Color.White
         Me.TxtCPassword.Font = New System.Drawing.Font("Nirmala UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TxtCPassword.ForeColor = System.Drawing.Color.Black
-        Me.TxtCPassword.Location = New System.Drawing.Point(190, 74)
-        Me.TxtCPassword.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.TxtCPassword.Location = New System.Drawing.Point(142, 60)
+        Me.TxtCPassword.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.TxtCPassword.Name = "TxtCPassword"
-        Me.TxtCPassword.Size = New System.Drawing.Size(225, 29)
+        Me.TxtCPassword.Size = New System.Drawing.Size(170, 25)
         Me.TxtCPassword.TabIndex = 77
         '
         'ErrorProvider1
@@ -201,9 +205,10 @@ Partial Class FormForgotPassword
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Nirmala UI", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.Maroon
-        Me.Label5.Location = New System.Drawing.Point(43, 31)
+        Me.Label5.Location = New System.Drawing.Point(32, 25)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(233, 37)
+        Me.Label5.Size = New System.Drawing.Size(187, 30)
         Me.Label5.TabIndex = 82
         Me.Label5.Text = "Forgot Password"
         '
@@ -215,10 +220,10 @@ Partial Class FormForgotPassword
         Me.CbShowPassword.FlatAppearance.BorderSize = 0
         Me.CbShowPassword.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.CbShowPassword.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CbShowPassword.Location = New System.Drawing.Point(428, 57)
-        Me.CbShowPassword.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.CbShowPassword.Location = New System.Drawing.Point(321, 46)
+        Me.CbShowPassword.Margin = New System.Windows.Forms.Padding(2, 3, 2, 3)
         Me.CbShowPassword.Name = "CbShowPassword"
-        Me.CbShowPassword.Size = New System.Drawing.Size(33, 24)
+        Me.CbShowPassword.Size = New System.Drawing.Size(25, 20)
         Me.CbShowPassword.TabIndex = 84
         Me.CbShowPassword.UseVisualStyleBackColor = True
         '
@@ -232,9 +237,11 @@ Partial Class FormForgotPassword
         Me.GroupBox1.Controls.Add(Me.Label4)
         Me.GroupBox1.Controls.Add(Me.TxtCPassword)
         Me.GroupBox1.Enabled = False
-        Me.GroupBox1.Location = New System.Drawing.Point(40, 332)
+        Me.GroupBox1.Location = New System.Drawing.Point(30, 270)
+        Me.GroupBox1.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(478, 235)
+        Me.GroupBox1.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox1.Size = New System.Drawing.Size(358, 191)
         Me.GroupBox1.TabIndex = 85
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "New Password Field"
@@ -247,10 +254,10 @@ Partial Class FormForgotPassword
         Me.btnChangePass.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.btnChangePass.Font = New System.Drawing.Font("Nirmala UI", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnChangePass.ForeColor = System.Drawing.Color.White
-        Me.btnChangePass.Location = New System.Drawing.Point(131, 166)
-        Me.btnChangePass.Margin = New System.Windows.Forms.Padding(4, 2, 4, 2)
+        Me.btnChangePass.Location = New System.Drawing.Point(98, 135)
+        Me.btnChangePass.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
         Me.btnChangePass.Name = "btnChangePass"
-        Me.btnChangePass.Size = New System.Drawing.Size(228, 44)
+        Me.btnChangePass.Size = New System.Drawing.Size(171, 36)
         Me.btnChangePass.TabIndex = 86
         Me.btnChangePass.Text = "Save Password"
         Me.btnChangePass.UseVisualStyleBackColor = False
@@ -264,9 +271,11 @@ Partial Class FormForgotPassword
         Me.GroupBox2.Controls.Add(Me.Label1)
         Me.GroupBox2.Controls.Add(Me.Label7)
         Me.GroupBox2.Controls.Add(Me.TxtAnswer)
-        Me.GroupBox2.Location = New System.Drawing.Point(40, 81)
+        Me.GroupBox2.Location = New System.Drawing.Point(30, 66)
+        Me.GroupBox2.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(478, 234)
+        Me.GroupBox2.Padding = New System.Windows.Forms.Padding(2, 2, 2, 2)
+        Me.GroupBox2.Size = New System.Drawing.Size(358, 190)
         Me.GroupBox2.TabIndex = 86
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Find User"
@@ -275,23 +284,24 @@ Partial Class FormForgotPassword
         '
         Me.cbquestion.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
         Me.cbquestion.FormattingEnabled = True
-        Me.cbquestion.Location = New System.Drawing.Point(207, 84)
+        Me.cbquestion.Location = New System.Drawing.Point(155, 68)
+        Me.cbquestion.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.cbquestion.Name = "cbquestion"
-        Me.cbquestion.Size = New System.Drawing.Size(227, 24)
+        Me.cbquestion.Size = New System.Drawing.Size(171, 21)
         Me.cbquestion.TabIndex = 74
         '
         'FormForgotPassword
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(233, Byte), Integer), CType(CType(225, Byte), Integer), CType(CType(217, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(582, 652)
+        Me.ClientSize = New System.Drawing.Size(436, 530)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.BtnClose)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Margin = New System.Windows.Forms.Padding(3, 2, 3, 2)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "FormForgotPassword"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "FormForgotPassword"

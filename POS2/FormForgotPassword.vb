@@ -19,13 +19,14 @@ Public Class FormForgotPassword
 
         Dim user As User = dbHandler.GetEmployeeByUsername(username)
 
-        If user.Role.ToString() = "admin" Then
-            MsgBox("Cannot change admin Password!")
-            Return False
-        End If
-
         If user IsNot Nothing Then
-            Return True
+            If user.Role.ToString() = "admin" Then
+                MsgBox("Cannot change admin Password!")
+                Return False
+            Else
+                Return True
+            End If
+
         Else
             MsgBox("No User Found!", MsgBoxStyle.Critical, "Error!")
             Return False
@@ -221,5 +222,9 @@ Public Class FormForgotPassword
 
     Private Sub cbquestion_SelectedIndexChanged_1(sender As Object, e As EventArgs) Handles cbquestion.SelectedIndexChanged
         PopulateQuestion()
+    End Sub
+
+    Private Sub GroupBox2_Enter(sender As Object, e As EventArgs) Handles GroupBox2.Enter
+
     End Sub
 End Class
