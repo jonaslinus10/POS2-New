@@ -69,15 +69,18 @@ Public Class FormUpdateAccount
         Dim isAuthenticated As Boolean = False
 
         Using connection As New SqlConnection(connectionString)
-            Dim query As String = "SELECT * FROM Users WHERE Username = @Username AND Password = @Password"
-            Dim command As New SqlCommand(query, connection)
-            command.Parameters.AddWithValue("@Username", username)
-            command.Parameters.AddWithValue("@Password", password)
-
             connection.Open()
-            Dim count As Integer = CInt(command.ExecuteScalar())
+            Dim cmd As New SqlCommand With {
+                .Connection = connection,
+                .CommandText = "SELECT * FROM Users WHERE Username = @Username AND Password = @Password"
+            }
+            cmd.Parameters.AddWithValue("@Username", username)
+            cmd.Parameters.AddWithValue("@Password", password)
+            Dim sda As SqlDataAdapter = New SqlDataAdapter(cmd)
+            Dim dt As DataTable = New DataTable()
+            sda.Fill(dt)
 
-            If count > 0 Then
+            If dt.Rows.Count() > 0 Then
                 isAuthenticated = True
             End If
         End Using
